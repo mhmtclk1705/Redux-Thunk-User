@@ -17,7 +17,7 @@ const News = () => {
   
   useEffect(() => {
     dispatch(getNews());
-  }, []);
+  }, [dispatch]);
   return (
     <>
       {loading && (
