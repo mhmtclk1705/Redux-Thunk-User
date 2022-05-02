@@ -1,1 +1,0 @@
-https://mehmetcelik-redux-thunk-user-project.netlify.app/
