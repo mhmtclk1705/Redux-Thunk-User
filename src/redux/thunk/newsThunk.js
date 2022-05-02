@@ -3,12 +3,8 @@ import { setLoading, clearLoading } from "../actions/appActions";
 import { setNewsList } from "../actions/newsActions";
 
 
-const url =
-"https://newsapi.org/v2/everything?" +
-"q=Apple&" +
-"from=2022-04-18&" +
-"sortBy=popularity&" +
-"apiKey=02d142c50d8b4247b974b25323435174";
+const url ="https://gnews.io/api/v4/search?q=example&token=f60ab83a182d2a6217cd15bc87f2ba3e"
+
 
 // "https://newsapi.org/v2/everything?" +
 // "q=apple&" +
