@@ -3,7 +3,7 @@ import { setLoading, clearLoading } from "../actions/appActions";
 import { setNewsList } from "../actions/newsActions";
 
 const url =
-  "https://newsapi.org/v2/everything?q=tesla&from=2022-04-02&sortBy=publishedAt&apiKey=62394115e9ff4a768ce424837b911c2b";
+  "http://newsapi.org/v2/everything?q=tesla&from=2022-04-02&sortBy=publishedAt&apiKey=62394115e9ff4a768ce424837b911c2b";
 // "https://newsapi.org/v2/everything?" +
 // "q=apple&" +
 // "from=2022-05-01&" +
