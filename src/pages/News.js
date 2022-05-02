@@ -45,7 +45,7 @@ const News = () => {
                 component="img"
                 height="250"
                 image={
-                  item?.urlToImage ??
+                  item?.image ??
                   "https://ichef.bbci.co.uk/news/976/cpsprodpb/5A8B/production/_122497132_tesla.png"
                 }
                 alt="img"
