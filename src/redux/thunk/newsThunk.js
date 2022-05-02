@@ -5,8 +5,9 @@ import { setNewsList } from "../actions/newsActions";
 
 const url =
 "https://newsapi.org/v2/everything?" +
-"q=Apple&" +
-"from=2022-04-18&" +
+"q=apple&" +
+"from=2022-05-01&" +
+"to=2022-05-01&"
 "sortBy=popularity&" +
 "apiKey=62394115e9ff4a768ce424837b911c2b";
 
